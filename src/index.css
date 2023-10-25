@@ -14,7 +14,6 @@ body {
     background-color: var(--clr-neutral);
     margin: 0;
     border: 0;
-    padding: 0 1.5em 0 1.5em;
 }
 
 @media (max-width: 768px) {
@@ -23,18 +22,20 @@ body {
         justify-content: center;
         align-items: center;
         grid-template-columns: 1fr;
+        padding: 0 2em 0 2em;
     }
     
     .even-columns {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 1.5em;
+        padding-top: 1em;
         flex-direction: column;
     }
     
     .logo {
         height: 30px;
+        padding-top: 1em;
     }
 
     .copy h1 {
@@ -65,6 +66,36 @@ body {
         background-color: var(--clr-strong);
         font-weight: var(--fw-400);
         padding: 1rem calc(40% - 1.5em) 1rem calc(40% - 1.5em);
+    }
+
+    .fita {
+        padding: 0;
+    }
+
+    .fita img{
+        width: 100%;
+        height: auto;
+    }
+
+    .valores h1 {
+        color: #FFF;
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-400);
+        font-size: 32px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .valores p {
+        font-family: var(--ff-secondary);
+        color: var(--clr-subneutral);
+        font-size: 16px;
+        text-align: justify;
+
+    }
+
+    .valores img {
+        width: 100%;
     }
 }
  

@@ -18,7 +18,21 @@ function App() {
         </section>
 
         <section>
-          
+            <div className="container | fita">
+              <div className="even-columns">
+                <img src="src\assets\Fitas.png" alt="" />
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <div className="container | valores">
+            <div className="even-columns">
+              <h1>Educação. Inspiração. <span style={{color: "var(--clr-strong)"}}>Conexão</span></h1>
+              <p>A Produs Hub surgiu com o intuito de conectar, inspirar e munir de conhecimento os estudantes que buscam o alto desempenho. Juntos formaremos o futuro do Brasil.</p>
+              <img src="src\assets\Aprender.png" alt="Valores da Produs" /> 
+            </div>
+          </div>
         </section>
             
         </header>
