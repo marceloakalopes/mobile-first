@@ -10,6 +10,10 @@
     --fw-400: 400;
 }
 
+.clr-strong {
+    color: var(--clr-strong);
+}
+
 body {
     background-color: var(--clr-neutral);
     margin: 0;
@@ -34,16 +38,17 @@ body {
     }
     
     .logo {
-        height: 30px;
+        height: 1.875em;
         padding-top: 1em;
     }
 
     .copy h1 {
         color: #FFF;
         font-family: var(--ff-primary);
-        font-size: 28px;
-        text-align: justify;
+        font-size: 1.75rem;
+        text-align: center;
         font-weight: var(--fw-400);
+        margin: 0;
     }
 
     .copy img {
@@ -95,7 +100,20 @@ body {
     }
 
     .valores img {
-        width: 100%;
+        width: 90%;
+    }
+
+    .vantagens h1 {
+        color: #FFF;
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-400);
+        font-size: 28px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .card img {
+        height: 20.5rem;
     }
 }
  
