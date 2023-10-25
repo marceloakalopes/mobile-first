@@ -20,6 +20,43 @@ body {
     border: 0;
 }
 
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 2rem;
+}
+
+.even-columns {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.entrar {
+    cursor: pointer;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+    background-color: var(--clr-strong);
+    color: #FFF;
+    border: 0;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 16px;
+}
+
+.copy-div {
+    order: -1;
+}
+
+.copy img {
+    height: 20rem;
+}
+
 @media (max-width: 768px) {
     .container {
         display: grid;
@@ -35,6 +72,10 @@ body {
         align-items: center;
         padding-top: 1em;
         flex-direction: column;
+    }
+
+    .entrar {
+        display: none;
     }
     
     .logo {

@@ -8,7 +8,11 @@ function App() {
               <div className="even-columns">
                 <img className="logo" src="src\assets\white.png" alt="Produs Logo" />
               </div>
+              <div className="even-columns">
+            <button className="entrar">Entrar</button>
+          </div>
         </div>
+
         </section>
 
         <section>
