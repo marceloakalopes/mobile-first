@@ -115,5 +115,26 @@ body {
     .card img {
         height: 20.5rem;
     }
+
+    #pay h1 {
+        color: var(--clr-strong);
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-400);
+        font-size: 32px;
+        margin: 0;
+        text-align: center;
+    }
+
+    #pay img {
+        width: 360px;
+    }
+
+    .garantia img {
+        height: 32rem;
+    }
+
+    .section-footer {
+        padding-bottom: 2rem;
+    }
 }
  

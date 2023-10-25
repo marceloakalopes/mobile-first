@@ -17,7 +17,7 @@ function App() {
                 <h1>Para <span className="clr-strong" >estudantes</span> que sonham grande</h1>
                 <img src="src\assets\sample.png" alt="Exemplo da Área de Membros" />
                 <p>Comece hoje a construir a vida que você sempre sonhou. Desenvolva as habilidades necessárias para ter sucesso nos estudos, ao lado de pessoas ambiciosas como você. A comunidade perfeita existe, e está só te esperando!</p>
-                <a href="">Quero fazer parte</a>
+                <a href="#pay">Quero fazer parte</a>
             </div>
         </div>   
         </section>
@@ -62,13 +62,42 @@ function App() {
             </div>
           </div>
         </section>
+
+        <section id='pay'>
+          <div className="container">
+            <div className="even-columns">
+              <h1>O que você está esperando?</h1>
+            </div>
+            <div className="even-columns">
+              <img src="src\assets\mes.png" alt="" />
+            </div>
+            <div className="even-columns">
+              <img src="src\assets\ano.png" alt="" />
+            </div>
+          </div>
+
+        </section>
+
+        <section>
+          <div className="container | garantia">
+            <div className="even-columns">
+              <img src="src\assets\garantia.png" alt="" />
+            </div>
+          </div>
+        </section>
             
         </header>
         <main>
           
         </main>
         <footer>
-
+            <section className="section-footer">
+              <div className="container">
+                <div className="even-columns">
+                  <img className="logo" src="src\assets\white.png" alt="" />
+                </div>
+              </div>
+            </section>
         </footer>
 
 </>
